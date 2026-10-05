@@ -1,1 +1,32 @@
-$file:/home/ubuntu/brief/package.json
+{
+  "name": "brief",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Self-hosted reader and scheduler for X and LinkedIn.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler dev --ip 127.0.0.1 --port 8787",
+    "start": "wrangler dev --ip 127.0.0.1 --port 8787",
+    "deploy": "wrangler deploy",
+    "login": "node scripts/login.mjs",
+    "typecheck": "tsc --noEmit",
+    "db:migrate:local": "wrangler d1 migrations apply brief --local"
+  },
+  "dependencies": {
+    "hono": "^4.9.6"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261001.1",
+    "playwright-core": "^1.55.0",
+    "typescript": "^5.9.2",
+    "wrangler": "^4.33.1"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sifr-studio-ventures/brief.git"
+  }
+}

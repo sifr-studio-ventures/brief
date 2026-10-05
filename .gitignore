@@ -1,1 +1,15 @@
-$file:/home/ubuntu/brief/.gitignore
+node_modules/
+.wrangler/
+.dev.vars
+dist/
+.profiles/
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.db
+*.db-journal
+cookies
+cookies.txt
+*.cookie
+.DS_Store
+*.log
