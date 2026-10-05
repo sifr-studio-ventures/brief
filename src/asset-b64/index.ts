@@ -1,0 +1,27 @@
+import { part as p00 } from "./parts/p00";
+import { part as p01 } from "./parts/p01";
+import { part as p02 } from "./parts/p02";
+import { part as p03 } from "./parts/p03";
+import { part as p04 } from "./parts/p04";
+import { part as p05 } from "./parts/p05";
+import { part as p06 } from "./parts/p06";
+import { part as p07 } from "./parts/p07";
+import { part as p08 } from "./parts/p08";
+import { part as p09 } from "./parts/p09";
+import { part as p10 } from "./parts/p10";
+import { part as p11 } from "./parts/p11";
+import { part as p12 } from "./parts/p12";
+import { part as p13 } from "./parts/p13";
+import { part as p14 } from "./parts/p14";
+import { part as p15 } from "./parts/p15";
+import { part as p16 } from "./parts/p16";
+import { part as p17 } from "./parts/p17";
+import { part as p18 } from "./parts/p18";
+import { part as p19 } from "./parts/p19";
+
+export const png = p00;
+export const ico = p01;
+export const latinExt400 = p02 + p03 + p04;
+export const latinExt500 = p05 + p06 + p07;
+export const latin400 = p08 + p09 + p10 + p11 + p12 + p13;
+export const latin500 = p14 + p15 + p16 + p17 + p18 + p19;
